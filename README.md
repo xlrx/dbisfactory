@@ -8,10 +8,10 @@ consisting of a High Rack, a Vacuum Gripper, a Furnance, and a Sorting Line.
 For this project, you need:
 - FischerTechnik Factory Simulation 24V (536634_sim)
 - Berghof EC2250
-- CodeSys SP5
-- a so-called Berghof 'target license' to be able to transfer the PLC data from Codesys to the Berghof
+- CodeSys V3.5 SP10 (CodeSys and Target versions must match!)
+- a so-called Berghof 'Target' to be able to transfer the PLC data from Codesys to the Berghof (e.g., buy from Conrad.de)
 - additional DIO 16/16 Extension board for the EC2250
-- a self-made motor encoder board (see below)
+- five self-made motor encoder boards (see below)
 - 24 volt stable power supply
 - a lot of wires
 - and space :-)
@@ -19,7 +19,7 @@ For this project, you need:
 ## Getting started
 
 - read the Bachelor Thesis from Manuel Göster, acts as manual
-- build the motor encoder board (see below)
+- build the motor encoder boards (see below)
 - connect the factory with the PLC according to the wiring (see io-layout-mapping.pdf in this repository)
 - connect the PLC with a computer
 - install CodeSys and the PLC target
